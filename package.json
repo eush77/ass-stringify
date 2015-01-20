@@ -1,0 +1,29 @@
+{
+  "name": "ass-stringify",
+  "version": "0.0.0",
+  "description": "Stringify ass-parser parse tree to plain SSA/ASS subtitle format",
+  "author": "Eugene Sharygin <eush77@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/eush77/ass-stringify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eush77/ass-stringify"
+  },
+  "bugs": {
+    "url": "https://github.com/eush77/ass-stringify/issues"
+  },
+  "keywords": [
+    "SSA",
+    "ASS",
+    "subtitle",
+    "format",
+    "subtitles",
+    "stringify",
+    "codegen",
+    "generator",
+    "generate",
+    "text"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
