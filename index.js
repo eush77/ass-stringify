@@ -5,7 +5,7 @@ var pickValues = require('pick-values');
 
 var stringifyDescriptor = {
   comment: function (comment) {
-    return '; ' + comment.value;
+    return ';' + comment.value;
   },
   formatSpec: function (formatSpec) {
     return formatSpec.key + ': ' + formatSpec.value.join(', ');
