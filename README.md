@@ -15,7 +15,7 @@ Stringify [ass-parser](https://www.npmjs.com/packages/ass-parser) parse tree to 
 
 ### `assStringify(ass)`
 
-Returns a text string.
+Returns a text string. See `test/sample.ass` for an example.
 
 ## References
 
