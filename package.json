@@ -4,6 +4,9 @@
   "description": "Stringify ass-parser parse tree to plain SSA/ASS subtitle format",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
   "homepage": "https://github.com/eush77/ass-stringify",
   "repository": {
     "type": "git",
@@ -25,5 +28,7 @@
     "text"
   ],
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "tape": "^3.4.0"
+  }
 }
