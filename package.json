@@ -1,6 +1,6 @@
 {
   "name": "ass-stringify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Stringify ass-parser parse tree to plain SSA/ASS subtitle format",
   "author": "Eugene Sharygin <eush77@gmail.com>",
   "license": "MIT",
