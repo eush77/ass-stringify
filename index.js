@@ -11,7 +11,7 @@ var stringifyDescriptor = {
     return formatSpec.key + ': ' + formatSpec.value.join(', ');
   },
   properties: function (properties, format) {
-    return properties.key + ': ' + pickValues(properties.value, format).join(', ');
+    return properties.key + ': ' + pickValues(properties.value, format).join(',');
   },
   raw: function (raw) {
     return raw.key + ': ' + raw.value;
