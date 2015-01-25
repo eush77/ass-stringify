@@ -22,6 +22,10 @@ Returns a text string. See `test/sample.ass` for an example.
 - [Wikipedia page](http://en.wikipedia.org/wiki/SubStation_Alpha)
 - [format specification](http://www.perlfu.co.uk/projects/asa/ass-specs.doc)
 
+## Related
+
+- [ass-parser](https://www.npmjs.com/packages/ass-parser) - SSA/ASS parser.
+
 ## Install
 
 ```shell
