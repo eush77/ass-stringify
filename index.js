@@ -20,10 +20,10 @@ var stringifyDescriptor = {
 
 
 var stringifySection = function (section) {
-  var head = '[' + section.section + ']\n';
+  var head = '[' + section.section + ']';
   var format = null;
 
-  return head + section.body.map(function (descriptor) {
+  var body = section.body.map(function (descriptor) {
     var method = (descriptor.type == 'comment') ? 'comment'
                : (descriptor.key == 'Format') ? 'formatSpec'
                : format ? 'properties'
@@ -35,6 +35,8 @@ var stringifySection = function (section) {
 
     return stringifyDescriptor[method](descriptor, format);
   }).join('\n');
+
+  return body ? head + '\n' + body : head;
 };
 
 
